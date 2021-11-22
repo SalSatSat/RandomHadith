@@ -26,7 +26,7 @@ class Book:
             chapter = Chapter(self.id, item['Chapter_ID'], item['Chapter_Name'])
             # print(f"{chapter.id}, {chapter.name}")
             chapters.append(chapter)
-            break
+            
         return chapters
 
     def getChapter(self, chapterID: int):

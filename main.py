@@ -16,7 +16,7 @@ def initBooks() -> []:
         for bookData in booksData['Books']:
             book = Book(bookData['Book_ID'], bookData['Book_Name'])
             books.append(book)
-            break
+            
     except requests.exceptions.RequestException as e:
         print(e)
         raise SystemExit(e)
