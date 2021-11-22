@@ -1,12 +1,13 @@
 # RandomHadith
 
-RandomHadith is a project to get a random hadith.
+RandomHadith is a project to get a random hadith via an API.
 
 <!--### Screenshots-->
 
 ### Requisites
 
 - [Python](https://www.python.org/) 3.6.8
+- [Hadith API](https://ahadith-api.herokuapp.com/)
 
 <!--### Documentation-->
 
